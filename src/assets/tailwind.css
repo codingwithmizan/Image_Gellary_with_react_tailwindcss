@@ -1,0 +1,16 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.recipeSection {
+  @apply font-bold pb-2 mt-12 border-b border-gray-200;
+}
+
+.card {
+  @apply mt-8 bg-white rounded shadow overflow-hidden relative;
+}
+.badge {
+  @apply bg-yellow-700 bg-transparent p-2 rounded-full text-sm uppercase text-gray-200 absolute top-0 mt-2 ml-2;
+}
